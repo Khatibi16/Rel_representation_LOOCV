@@ -3,9 +3,9 @@ import json
 import shutil
 
 # ====== CONFIG ======
-metadata_path = "/path/to/metadata.cart.json"
-download_dir = "/path/to/tcga_brca_data"  # Folder where gdc-client put UUID folders
-flat_dir = "/path/to/flat_files"  # Where you want all .tsv files together
+metadata_path = "metadata.repository.2025-08-13.json"
+download_dir = "tcga_brca_data"  # Folder where gdc-client put UUID folders
+flat_dir = "flat_files"  # Where you want all .tsv files together
 os.makedirs(flat_dir, exist_ok=True)
 
 # ====== LOAD METADATA ======
