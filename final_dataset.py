@@ -6,7 +6,7 @@ METADATA_JSON   = "metadata.repository.2025-08-13.json"  # Path to GDC metadata 
 GDC_DOWNLOAD_DIR = "tcga_brca_data"   # folder with many UUID subfolders
 CLINICAL_TSV    = "clinical.tsv"       # path to clinical data
 OUTPUT_CSV      = "tcga_brca_final_dataset.csv"  # output CSV
-EXPR_COL        = "fpkm_unstranded"   # or "tpm
+EXPR_COL        = "fpkm_unstranded"   
 
 
 def parse_case_sample(s):
