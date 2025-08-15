@@ -151,5 +151,5 @@ common = expr.columns.intersection(clin2.index)
 final = pd.concat([clin2.loc[common], expr[common].T], axis=1)
 final.to_csv(OUTPUT_CSV)
 
-print("✅ Saved:", OUTPUT_CSV)
-print("   Patients:", final.shape[0], "| Clinical cols:", clin2.shape[1], "| Genes:", expr.shape[0])
+print(" Saved:", OUTPUT_CSV)
+print(" Patients:", final.shape[0], "| Clinical cols:", clin2.shape[1], "| Genes:", expr.shape[0])
