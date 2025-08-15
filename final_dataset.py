@@ -2,10 +2,10 @@
 import os, json, glob, pandas as pd
 
 # ========= EDIT THESE PATHS =========
-METADATA_JSON   = "metadata.repository.2025-08-13.json"  # Path to GDC metadata file
-GDC_DOWNLOAD_DIR = "tcga_brca_data"   # folder with many UUID subfolders
-CLINICAL_TSV    = "clinical.tsv"       # path to clinical data
-OUTPUT_CSV      = "tcga_brca_final_dataset.csv"  # output CSV
+METADATA_JSON   = "metadata.repository.2025-08-13.json"  
+GDC_DOWNLOAD_DIR = "tcga_brca_data"   
+CLINICAL_TSV    = "clinical.tsv"       
+OUTPUT_CSV      = "tcga_brca_final_dataset.csv"  
 EXPR_COL        = "fpkm_unstranded"   
 
 
