@@ -1,4 +1,3 @@
-# build_dataset_direct.py
 import os, json, glob, pandas as pd
 
 # ========= EDIT THESE PATHS =========
