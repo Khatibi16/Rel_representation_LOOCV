@@ -1,9 +1,9 @@
 import argparse
 import yaml
 import pandas as pd
-from preprocessors import load_feature_selector, load_data_transformer, load_evaluation_metric, load_normalizer, load_standardizer
-from trainers import load_algo
-from training_cls import PretrainFineTuneDsCV, DatasetCrossValidation
+from src.preprocessors import load_feature_selector, load_data_transformer, load_evaluation_metric, load_normalizer, load_standardizer
+from src.trainers import load_algo
+from src.training_cls import PretrainFineTuneDsCV, DatasetCrossValidation
 import torch
 import numpy as np
 import warnings

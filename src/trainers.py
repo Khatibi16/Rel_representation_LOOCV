@@ -7,10 +7,10 @@ import torch.nn as nn
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import  GaussianNB
 from sklearn.ensemble import RandomForestClassifier
-from models import DnnClf, DeepSurv, DnnSupCon, DeepAeSurv, DalSelfNet
+from src.models import DnnClf, DeepSurv, DnnSupCon, DeepAeSurv, DalSelfNet
 from pytorch_metric_learning.losses import SupConLoss, NTXentLoss, SelfSupervisedLoss
-from losses import nlplloss_vectorized
-from utils import zero_mask_batch
+from src.losses import nlplloss_vectorized
+from src.utils import zero_mask_batch
 
 def load_algo(required_clf):
     """

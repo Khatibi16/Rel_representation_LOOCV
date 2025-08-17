@@ -1,5 +1,5 @@
 from sklearn.model_selection import RepeatedStratifiedKFold, StratifiedKFold
-from utils import SupDataset
+from src.utils import SupDataset
 from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import train_test_split, ParameterSampler
 import numpy as np
@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap, BoundaryNorm
 import torch
 import matplotlib.colors as mcolors
-from preprocessors import load_data_transformer
+from src.preprocessors import load_data_transformer
 
 class Pipeline():
     def __init__(self,hps, normalizer, data_transformer, feature_selector, standardizer):
